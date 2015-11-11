@@ -1,0 +1,329 @@
+.ferramentas-icon{
+	background-image: url(../img/icones1.png);
+	width:20px;
+	height: 20px;
+	overflow: hidden;
+	display: block;
+
+}
+.avatar-slide .avatar-link a i {
+	height: 28px!important;
+	width:28px!important;
+	margin: 5px!important;
+	padding: 0px!important;
+}
+.f-linha{
+	background-position: -22px 0px;
+}
+.f-poly{
+	background-position: -48px 0px;
+}
+.f-marca{
+	background-position: -75px 0px;
+}
+.consulta-modal ul li{
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.site-logo {
+	background: url(../img/logo_white.png) no-repeat center center;
+}
+.full-lg #main{
+	background-color: #1b1e24;
+}
+body.leftMenu {
+	background: url(../img/logo_white.png) no-repeat;
+	background-position: 48px 0px!important;
+	background-color: #262a33;
+}
+#header{
+	border-bottom: 5px #E3662E solid!important;
+}
+#header .tools-bar a.icon-toolsbar{
+	color:#E3662E!important;
+}
+#msg-error{
+	display: none;
+}
+.leaflet-control-layers-overlays label{
+	cursor: row-resize!important;
+}
+.footer-link, .footer-link:hover{
+	color: #A1A1A1;
+}
+
+.pull-right, .pull-right:hover{
+	color: #A1A1A1;
+}
+
+.form-signin .btn{
+	background-color: #E3662E;
+	border-color: #E3662E;
+}
+
+.form-signin .btn:hover{
+	background-color: #E1713F;
+	border-color: #E1713F;
+}
+
+table td, table th{
+	text-align: left;
+}
+
+.acao{
+	text-align: center;
+}
+
+.coluna-perfil-top{
+	border-top: 0px!important;
+}
+
+.wrapper-erro{
+	background-color: #E5E9EC;
+	margin-left: 0px;
+	height: 100%;
+	left: 0;
+	min-width: 320px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+}
+
+.input-recuperar-senha{
+	margin-bottom: 20px!important;
+}
+
+.form-control:focus {
+    border-color: #E3662E;
+}
+
+::-moz-selection {
+  background-color: #E3662E;
+  color: white;
+}
+
+::selection {
+  background-color: #E3662E;
+  color: white;
+}
+
+.ms-container .ms-selection {
+  background: #fff;
+  color: #555555;
+  float: left;
+  width: 45%;
+  float: right;
+}
+
+.ms-container .ms-selectable li.ms-elem-selectable, .ms-container .ms-selection li.ms-elem-selection {
+  border-bottom: 1px #eee solid;
+  padding: 5px 10px;
+  color: #555;
+  font-size: 14px;
+}
+.ms-container .ms-selectable li.ms-hover, .ms-container .ms-selection li.ms-hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  background-color: #E3662E;
+}
+.ms-container .ms-selectable li.disabled, .ms-container .ms-selection li.disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: text;
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+.ferramentas-icon{
+	background-image: url(../img/icones1.png);
+	width:20px;
+	height: 20px;
+	overflow: hidden;
+	display: block;
+
+}
+.avatar-slide .avatar-link a i {
+	height: 28px!important;
+	width:28px!important;
+	margin: 5px!important;
+	padding: 0px!important;
+}
+.f-linha{
+	background-position: -22px 0px;
+}
+.f-poly{
+	background-position: -48px 0px;
+}
+.f-marca{
+	background-position: -75px 0px;
+}
+.consulta-modal ul li{
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.site-logo {
+	background: url(../img/logo_white.png) no-repeat center center;
+}
+.full-lg #main{
+	background-color: #1b1e24;
+}
+body.leftMenu {
+  background: url(../img/logo_white.png) no-repeat;
+  background-position: 48px 0px!important;
+  background-color: #262a33;
+}
+.leaflet-control-layers-overlays label{
+	cursor: row-resize!important;
+}
+
+
+
+#mapedit, .leaflet-container { height: 100%; margin: 0; }
+
+#message {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background: yellow;
+    opacity: 0.7;
+    padding: 6px 16px;
+    color: black;
+    text-align: left;
+    line-height: 1.5;
+    border: none;
+    z-index: 3000;
+}
+#message a {
+    color: blue;
+}
+/*#title {
+    position: absolute;
+    width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    left: 0; right: 0;
+    top: 10px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 1000;
+}
+#titleview {
+    text-align: center;
+}
+#titleinput {
+    width: 100%;
+    border-width: 0;
+    padding: 0;
+    text-align: center;
+}
+#titleedit {
+    border: 1px #444 solid;
+    padding: 2px;
+}
+#editraw {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1001;
+    display: none;
+}
+#editrawbox, #historybox {
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 1.0;
+    background-color: white;
+    z-index: 1002;
+    display: none;
+}
+#editrawta {
+    border: none;
+    padding: 0;
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+#editrawtad {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    right: 6px;
+    bottom: 30px;
+    border: 1px solid black;
+    padding: 4px;
+}
+#editrawbottom {
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    bottom: 0px;
+    text-align: left;
+    line-height: 30px;
+}
+#fm {
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+}
+#historybox {
+    width: 500px;
+}
+#historybox .buttons {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 30px;
+}
+#historybox h2 {
+    font-size: 12pt;
+    text-align: center;
+    margin: 0;
+    line-height: 30px;
+}
+#histlistcontainter {
+}
+#historylist {
+    overflow-y: auto;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+.history-entry {
+    /*border-top: 1px solid #ddd;
+    padding-top: 4px;
+    margin: 0 8px 8px;
+    text-align: left;
+}
+.history-entry .date {
+    font-size: 10pt;
+    color: #666;
+}
+.history-entry .edit {
+    float: right;
+    font-size: 10pt;
+}
+.history-entry .title {
+    clear: both;
+}
+.history-entry .title a {
+    color: black;
+}

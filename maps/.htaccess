@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !(index|auth)\.php$
+RewriteCond %{REQUEST_FILENAME} !lib\/
+RewriteCond %{REQUEST_FILENAME} !assets\/
+RewriteCond %{REQUEST_FILENAME} !drag.php
+
+RewriteRule . index.php [L]
